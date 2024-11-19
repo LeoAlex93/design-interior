@@ -1,0 +1,14 @@
+.container {
+    width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    @include tablet {
+        width: 768px;
+    }
+    
+    @include mobile {
+        width:100%;
+    }
+}
+

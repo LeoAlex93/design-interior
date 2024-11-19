@@ -1,0 +1,46 @@
+
+.contacts__form-wrapper {
+    width: 505px;
+    flex-shrink: 0;
+
+    @include tablet {
+    width: 360px;
+
+    }
+
+    @include mobile {
+        width: 100%;
+    }
+    
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.form-input, .form-textarea{
+    display: block;
+    
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 19px;
+    &::placeholder {
+        color:#ACA9A9;
+    }
+
+    &:focus {
+        border: 1px solid #eba038;
+    }
+   
+}
+
+
+.form-textarea {
+    padding: 27px 0 0 19px;
+    height: 246px;
+    resize: none;
+    
+}
+

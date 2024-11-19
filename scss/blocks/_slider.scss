@@ -1,0 +1,30 @@
+.owl-dot span{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	border-radius:50%;
+	background-color: #c4c4c4;
+}
+.owl-dots  button.owl-dot.active span{
+	background-color: #fff;
+	
+}
+.owl-dot  + .owl-dot{
+	margin-left: 9px; 
+}
+.header__slider-wripper .owl-dots{
+	position: absolute;	
+	left: 48px;
+	bottom: 37px;
+	z-index: 2;
+}
+
+
+.portfolio__content .owl-dots {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.portfolio__content button.owl-dot.active span {
+	background-color: #eeb115;
+}
